@@ -1,17 +1,18 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "nuxt": "^3.4.0"
-  },
-  "dependencies": {
-    "ramda": "^0.29.0"
-  }
+	"name": "nuxt-app",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"nuxt": "^3.4.0"
+	},
+	"dependencies": {
+		"ramda": "^0.29.0"
+	}
 }
