@@ -30,9 +30,10 @@ module.exports = {
 	/**
 	 * 배포 설정
 	 */
+	/* 
 	deploy: {
-		production: {
-			user: "ec2-user", // 접속할 계정
+        production: {
+            user: "ec2-user", // 접속할 계정
 			host: "sklee1.snowtoon.com", // 도메인 또는 IP
 			ref: "origin/master", // git 브론치
 			repo: "git@github.com:sklee385/test_nuxt.git", // git 주소
@@ -41,4 +42,5 @@ module.exports = {
 			"post-deploy": "npm install && pm2 reload ecosystem.config.js --env production",
 		},
 	},
+    */
 };
