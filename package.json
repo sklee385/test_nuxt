@@ -5,6 +5,7 @@
 		"build": "nuxt build",
 		"dev": "nuxt dev",
 		"start": "nuxt start",
+		"serve": "NITRO_HOST=localhost node .output/server/index.mjs",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare"
