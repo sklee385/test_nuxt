@@ -4,8 +4,8 @@ module.exports = {
 			name: "front_we_novelpia",
 			// package.json에 정의된 npm run start를 실행하게 해서 PM2로 관리하게 한다.
 			script: "npm", // 앱 실행 스크립트
-			args: "run start", // 앱 실행 스크립트 인자
-			instances: "max", // 인스턴스 갯수
+			args: "run serve", // 앱 실행 스크립트 인자
+			// instances: "max", // 인스턴스 갯수
 			autorestart: true, // 자동 재시작 여부
 			watch: false, // 파일 변경시 reload
 			// max_memory_restart: "1G",
